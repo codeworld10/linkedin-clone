@@ -5,6 +5,7 @@ import { AiFillHome } from 'react-icons/ai'
 import {HiUsers, HiShoppingBag,} from 'react-icons/hi'
 import {IoChatboxEllipsesOutline} from 'react-icons/io5'
 import {BsFillBellFill} from 'react-icons/bs'
+import {TbGridDots} from 'react-icons/tb'
 
 const Navbar = () => {
   return (
@@ -15,8 +16,8 @@ const Navbar = () => {
             <Image
               src="/images/linkedinlogo.png"
               alt='maniwebdev'
-              width="40"
-              height="40"
+              width="30"
+              height="30"
             />
           </div>
           <div>
@@ -32,11 +33,14 @@ const Navbar = () => {
         <div>
           <ul>
             <li className='navbar-li'>
-              <Link className='navbar-link' href="#home"><div><AiFillHome size={30} /></div> <div>Home</div></Link>
-              <Link className='navbar-link' href="#home"><div><HiUsers size={30}/></div> <div>My network</div></Link>
-              <Link className='navbar-link' href="#home"><div><HiShoppingBag size={30} /></div> <div>Jobs</div></Link>
-              <Link className='navbar-link' href="#home"><div><IoChatboxEllipsesOutline size={30} /></div> <div>Messages</div></Link>
-              <Link className='navbar-link' href="#home"><div><BsFillBellFill size={30} /></div> <div>Notifications</div></Link>
+              <Link className='navbar-link' href="#home"><div><AiFillHome size={25} /></div> <div>Home</div></Link>
+              <Link className='navbar-link' href="#home"><div><HiUsers size={25}/></div> <div>My network</div></Link>
+              <Link className='navbar-link' href="#home"><div><HiShoppingBag size={25} /></div> <div>Jobs</div></Link>
+              <Link className='navbar-link' href="#home"><div><IoChatboxEllipsesOutline size={25} /></div> <div>Messages</div></Link>
+              <Link className='navbar-link' href="#home"><div><BsFillBellFill size={25} /></div> <div>Notifications</div></Link>
+              <Link className='navbar-link' href="#home"><div><Image className='navbar-menu-image' src='/images/usm.jpg' alt="maniwebdev" width="20" height="20" /></div> <div>Me</div></Link>
+              <div className='navbar-border'></div>
+              <Link className='navbar-link' href="#home"><div><TbGridDots size={25} /></div> <div>Business</div></Link>
             </li>
           </ul>
         </div>

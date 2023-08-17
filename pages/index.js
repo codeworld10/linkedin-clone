@@ -14,7 +14,17 @@ export default function Home() {
 
       <main className={styles.main}>
       <Navbar />
-      <h1>LinkedIn Clone</h1>
+      <div class="wrapper">
+        <div class="left-sidebar">
+           this is left
+        </div>
+        <div class="main-content">
+          this is middle
+        </div>
+        <div class="right-sidebar">
+        this is right
+        </div>
+    </div>
       </main>
 
       <footer className={styles.footer}>
