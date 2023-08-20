@@ -46,7 +46,7 @@ export default function Home() {
               <p>Try sales navigator</p>
             </div>
             <div className='horizontol-myitems'>
-              <BsFillBookmarkFill size={25} />
+              <BsFillBookmarkFill size={25} style={{color:'grey'}}/>
               <p className='item-text'>My Items</p>
             </div>
           </div>
