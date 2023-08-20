@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
+import {BsFillBookmarkFill} from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -26,6 +27,24 @@ export default function Home() {
                 <p className='user-bio'>👩‍💻 Web/App Developer | 🚀 Helping Small Businesses Grow Online</p>
               </div>
             </div>
+           <div className='card-border-line'>
+           <div className='horizontal-views-stats'>
+           <p>Profile Viewers</p>
+           <p>181</p>
+           </div>
+           <div className='horizontal-post-stats'>
+           <p>Post impression</p>
+           <p>181</p>
+           </div>
+           </div>
+           <div className='sales-bottom-border'>
+           <p>Access exclusive tools & insights</p>
+           <p>Try sales navigator</p>
+           </div>
+           <div className='horizontol-myitems'>
+           <BsFillBookmarkFill size={25} />
+           <p className='item-text'>My Items</p>
+           </div>
           </div>
           <div className="main-content">
             this is middle

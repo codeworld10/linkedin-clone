@@ -103,4 +103,33 @@ border-radius: 50px;
   padding-right: 10px;
 }
 
+.card-border-line{
+  border-top: 0.1px solid rgb(209, 209, 209);
+  border-bottom: 0.1px solid rgb(209, 209, 209);
+}
+
+.horizontal-views-stats, .horizontal-post-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sales-bottom-border{
+  border-bottom: 0.1px solid rgb(209, 209, 209);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.horizontol-myitems{
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.item-text {
+  padding-left: 5px;
+}
 
