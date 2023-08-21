@@ -10,11 +10,11 @@ body {
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   position: fixed; /* Change to fixed */
   top: 0; /* Stick to the top of the viewport */
   width: 100%; /* Take up the full width of the viewport */
-  z-index: 5000; /* Adjust z-index as needed */
+  z-index: 1000; /* Adjust z-index as needed */
 }
 
 .horizontal-logo {
@@ -40,12 +40,27 @@ body {
   flex-direction: column;
 }
 
+.search-input{
+  border: 0px;
+  background-color: rgb(230, 242, 252);
+  padding-left: 5px;
+}
+
 .navbar-input {
   width: 230px;
-  height: 30px;
+  height: 35px;
   border: 0px;
   background-color: rgb(230, 242, 252);
   margin-left: 5px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-text {
+  font-size: 12px;
+  color: grey;
+  margin-top: -5px;
 }
 
 .navbar-border{
@@ -55,7 +70,7 @@ body {
 
 .navbar-menu-image{
   border-radius: 10px;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 /* body styling of home page starts from here */
@@ -70,7 +85,7 @@ body {
 .left-sidebar, .right-sidebar {
   width: 250px;
   background-color: #ffffff;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 4px 4px rgba(156, 156, 156, 0.3);
   border-radius: 10px;
   padding-bottom: 10px;
   margin: 15px;
@@ -106,6 +121,8 @@ border-radius: 50px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  color: grey;
+  font-size: 14px;
 }
 
 .card-border-line{
@@ -117,8 +134,41 @@ border-radius: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.stats{
+  color: rgb(79, 158, 248);
+  font-weight: bold;
+  font-size: 12px;
+}
+.stats1{
+  color: rgb(79, 158, 248);
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.access-text{
+  font-size: 12px;
+  color: grey;
+}
+
+.sales-text{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.profile-views, .post-impression{
+  font-size: 14px;
+  color: grey;
+}
+
+.post-impression{
+  margin-top: -10px;
 }
 
 .sales-bottom-border{
@@ -136,6 +186,8 @@ border-radius: 50px;
 
 .item-text {
   padding-left: 5px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .post-card-image {
@@ -175,5 +227,55 @@ border-radius: 50px;
 .options-text{
   padding-right: 40px;
   padding-left: 5px;
+  color: grey;
 }
 
+.feed-top{
+  padding-left: 10px;
+}
+
+.add-feed-text{
+  font-weight: 600;
+  color: grey;
+}
+
+.horizontal-feed{
+  display: flex;
+  padding-left: 10px;
+}
+
+.feed-image{
+  object-fit: cover;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+.feed-space{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.feed-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.feed-bio{
+  font-size: 14px;
+  margin-top: -10px;
+  color: grey;
+}
+
+.feed-button{
+ padding-left: 15px;
+ padding-right: 25px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ border-radius: 20px;
+ border: 0.1px solid grey;
+ font-size: 15px;
+ background-color: #ffffff;
+ color: grey;
+ margin-bottom: 15px;
+ font-weight: 600;
+}

@@ -33,20 +33,20 @@ export default function Home() {
             </div>
             <div className='card-border-line'>
               <div className='horizontal-views-stats'>
-                <p>Profile Viewers</p>
-                <p>181</p>
+                <p className='profile-views'>Profile viewers</p>
+                <p className='stats'>181</p>
               </div>
               <div className='horizontal-post-stats'>
-                <p>Post impression</p>
-                <p>181</p>
+                <p className='post-impression'>Post impression</p>
+                <p className='stats1'>171</p>
               </div>
             </div>
             <div className='sales-bottom-border'>
-              <p>Access exclusive tools & insights</p>
-              <p>Try sales navigator</p>
+              <p className='access-text'>Access exclusive tools & insights</p>
+              <p className='sales-text'>Try sales navigator</p>
             </div>
             <div className='horizontol-myitems'>
-              <BsFillBookmarkFill size={25} style={{color:'grey'}}/>
+              <BsFillBookmarkFill size={15} style={{color:'grey'}}/>
               <p className='item-text'>My Items</p>
             </div>
           </div>
@@ -57,15 +57,50 @@ export default function Home() {
                 <input className='post-card-input' type='text' placeholder='Start a post' />
               </div>
               <div className='horizontol-post-options'>
-                <MdInsertPhoto size={25} /><p className='options-text'>Photo</p>
-                <RiVideoFill size={25} /><p className='options-text'>Video</p>
-                <HiPaintBrush size={25} /><p className='options-text'>Design</p>
-                <RiArticleFill size={25} /><p className='options-text'>Write article</p>
+                <MdInsertPhoto color='blue' size={25} /><p className='options-text'>Photo</p>
+                <RiVideoFill color='green' size={25} /><p className='options-text'>Video</p>
+                <HiPaintBrush color='purple' size={25} /><p className='options-text'>Design</p>
+                <RiArticleFill color='red' size={25} /><p className='options-text'>Write article</p>
               </div>
             </div>
           </div>
           <div className="right-sidebar">
-            this is right
+            <div className='feed-top'>
+            <p className='add-feed-text'>Add to your feed</p>
+            </div>
+            <div className='horizontal-feed'>
+            <div>
+            <Image className='feed-image' src="/images/image1.jpeg" width="50" height="50" alt='maniwebdev'/>
+            </div>
+            <div className='feed-space'>
+            <p className='feed-name'>Alex</p>
+            <p className='feed-bio'>This is bio text</p>
+            <div><button className='feed-button'>+ Follow</button></div>
+            </div>
+            
+            </div>
+            <div className='horizontal-feed'>
+            <div>
+            <Image className='feed-image' src="/images/image2.jpeg" width="50" height="50" alt='maniwebdev'/>
+            </div>
+            <div className='feed-space'>
+            <p className='feed-name'>Alexander</p>
+            <p className='feed-bio'>This is bio text</p>
+            <div><button className='feed-button'>+ Follow</button></div>
+            </div>
+            
+            </div>
+            <div className='horizontal-feed'>
+            <div>
+            <Image className='feed-image' src="/images/image3.jpeg" width="50" height="50" alt='maniwebdev'/>
+            </div>
+            <div className='feed-space'>
+            <p className='feed-name'>Marco</p>
+            <p className='feed-bio'>This is bio text</p>
+            <div><button className='feed-button'>+ Follow</button></div>
+            </div>
+            
+            </div>
           </div>
         </div>
       </main>
