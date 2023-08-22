@@ -2,11 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
-import { BsFillBookmarkFill } from 'react-icons/bs'
+import { BsFillBookmarkFill, BsThreeDots, BsChatText } from 'react-icons/bs'
 import { MdInsertPhoto } from 'react-icons/md'
 import { RiVideoFill } from 'react-icons/ri'
 import { HiPaintBrush } from 'react-icons/hi2'
-import { RiArticleFill } from 'react-icons/ri'
+import { RiArticleFill, RiSendPlaneFill } from 'react-icons/ri'
+import {BiLike} from 'react-icons/bi'
+import {FiRepeat} from 'react-icons/fi'
+import { posts } from '../components/Posts'
 
 export default function Home() {
   return (
@@ -63,6 +66,30 @@ export default function Home() {
                 <RiArticleFill color='red' size={25} /><p className='options-text'>Write article</p>
               </div>
             </div>
+            {posts.map((post, index) => (
+            <>
+              <div key={index} className='post-card'>
+          <div className='horizontal-post-image'>
+          <div className='horizontal-image-name'>
+          <Image className='post-user-image' src={post.userImage} alt='maniwebdev' width='50' height='50'/>
+          <div>
+          <p className='post-name'>{post.name}</p>
+          <p className='post-bio'>{post.bio}</p>
+          </div>
+          </div>
+          <div><BsThreeDots size={20} /></div>
+          </div>
+         <div className='post-description'>{post.postDescription}</div>
+         <div className='post-main-image'><Image src={post.postImage} width={600} height={600} alt='maniwebdev' /></div>
+          <div className='like-horizontal'>
+          <div className='post-icons-horizontal'><BiLike color='grey' size={30} /> <p className='icon-text'>Like</p></div>
+          <div className='post-icons-horizontal'><BsChatText color='grey' size={30} /> <p className='icon-text'>Comment</p></div>
+          <div className='post-icons-horizontal'><FiRepeat color='grey' size={30} /> <p className='icon-text'>Repost</p></div>
+          <div className='post-icons-horizontal'><RiSendPlaneFill color='grey' size={30} /> <p className='icon-text'>Send</p></div>
+          </div>
+         </div>
+         </>
+            ))}
           </div>
           <div className="right-sidebar">
             <div className='feed-top'>
@@ -99,7 +126,6 @@ export default function Home() {
             <p className='feed-bio'>This is bio text</p>
             <div><button className='feed-button'>+ Follow</button></div>
             </div>
-            
             </div>
           </div>
         </div>
