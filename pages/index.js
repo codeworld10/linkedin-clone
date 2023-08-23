@@ -10,6 +10,7 @@ import { RiArticleFill, RiSendPlaneFill } from 'react-icons/ri'
 import {BiLike} from 'react-icons/bi'
 import {FiRepeat} from 'react-icons/fi'
 import { posts } from '../components/Posts'
+import BottomNavigation from '../components/BottomNavigation'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         <div className="wrapper">
           <div className="left-sidebar">
             <div>
-              <Image className='left-sidebar-top-image' src="/images/cover.png" height="50" width="250" alt='maniwebdev' />
+              <Image className='left-sidebar-top-image' src="/images/cover.png" height="50" width="210" alt='maniwebdev' />
               <div className='center-profile-image'>
                 <Image className='left-sidebar-profile-image' src="/images/usm.jpg" height="70" width="70" alt='maniwebdev' />
               </div>
@@ -80,7 +81,7 @@ export default function Home() {
           <div><BsThreeDots size={20} /></div>
           </div>
          <div className='post-description'>{post.postDescription}</div>
-         <div className='post-main-image'><Image src={post.postImage} width={600} height={600} alt='maniwebdev' /></div>
+         <div className='post-main-image'><Image className='posts-images' src={post.postImage} width={600} height={600} alt='maniwebdev' /></div>
           <div className='like-horizontal'>
           <div className='post-icons-horizontal'><BiLike color='grey' size={30} /> <p className='icon-text'>Like</p></div>
           <div className='post-icons-horizontal'><BsChatText color='grey' size={30} /> <p className='icon-text'>Comment</p></div>
@@ -128,6 +129,7 @@ export default function Home() {
             </div>
             </div>
           </div>
+          <BottomNavigation />
         </div>
       </main>
 

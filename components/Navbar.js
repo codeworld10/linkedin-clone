@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
       <div className='navbar'>
         <div className='horizontal-logo'>
-          <div>
+          <div className='logo-image'>
             <Image
               src="/images/linkedinlogo.png"
               alt='maniwebdev'
@@ -30,6 +30,7 @@ const Navbar = () => {
             // onChange={handleInputChange}
             />
           </div>
+          <div className='navbar-message-icon'><IoChatboxEllipsesOutline color='grey' size={25} /></div>
         </div>
         <div>
           <ul>
