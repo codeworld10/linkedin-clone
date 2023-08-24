@@ -17,7 +17,7 @@ body {
   z-index: 1000; /* Adjust z-index as needed */
 }
 
-.logo{
+.logo {
   padding-left: 15px;
 }
 
@@ -363,7 +363,7 @@ body {
   display: none;
 }
 
-.like-icon{
+.like-icon {
   color: grey;
   font-size: 30px;
 }
@@ -401,14 +401,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-
-  .navbar-message-icon {
-    display: block;
-    font-size: 25px;
-    color: grey;
-    padding-right: 55px;
-  }
- 
 }
 
 @media (max-width: 1019px) {
@@ -417,9 +409,10 @@ body {
   }
   .navbar-message-icon {
     display: block;
-    padding-left: 10px;
     font-size: 25px;
     color: grey;
+    padding-right: 55px;
+    padding-left: 10px;
   }
   .navbar-input,
   .search-input {
@@ -428,6 +421,17 @@ body {
 
   .logo-image {
     padding-left: 100px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .left-sidebar {
+    margin-top: -40px;
+  }
+
+  .main-content {
+    padding: 10px;
+    margin-top: -52px;
   }
 }
 
@@ -460,12 +464,12 @@ body {
     box-sizing: border-box;
   }
 
-  .logo{
+  .logo {
     width: 30px;
     height: 30px;
   }
 
-  .main-post-card{
+  .main-post-card {
     display: none;
   }
 }
@@ -527,12 +531,12 @@ body {
     width: 500px;
   }
 
-  .post-card-image{
+  .post-card-image {
     width: 40px;
     height: 40px;
   }
 
-  .post-description{
+  .post-description {
     font-size: 14px;
   }
 
@@ -546,16 +550,16 @@ body {
   .options-text {
     font-size: 13px;
   }
-  .post-user-image{
+  .post-user-image {
     width: 40px;
     height: 40px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 20px;
   }
@@ -596,21 +600,21 @@ body {
     width: 380px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 16px;
   }
 
-  .post-description{
+  .post-description {
     font-size: 12px;
   }
 }
@@ -626,25 +630,25 @@ body {
     width: 360px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 16px;
   }
 
-  .post-description{
+  .post-description {
     font-size: 12px;
   }
 
-  .icon-text{
+  .icon-text {
     font-size: 12px;
   }
 }
@@ -660,20 +664,19 @@ body {
     width: 340px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 16px;
   }
-
 }
 
 @media (max-width: 357px) {
@@ -687,20 +690,19 @@ body {
     width: 320px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 14px;
   }
-
 }
 
 @media (max-width: 357px) {
@@ -714,20 +716,19 @@ body {
     width: 300px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 14px;
   }
-
 }
 
 @media (max-width: 317px) {
@@ -741,24 +742,23 @@ body {
     width: 280px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 14px;
   }
-
 }
 
 @media (max-width: 299px) {
-  .logo{
+  .logo {
     width: 25px;
     height: 25px;
     padding-left: 0px;
@@ -773,27 +773,25 @@ body {
     width: 260px;
   }
 
-  .post-user-image{
+  .post-user-image {
     width: 30px;
     height: 30px;
   }
 
-  .post-name{
+  .post-name {
     font-size: 14px;
   }
 
-  .like-icon{
+  .like-icon {
     color: grey;
     font-size: 12px;
   }
 
-  .icon-text{
+  .icon-text {
     font-size: 10px;
   }
-  .navbar-message-icon{
+  .navbar-message-icon {
     font-size: 18px;
     color: grey;
   }
-
 }
-
