@@ -358,6 +358,11 @@ body {
   display: none;
 }
 
+.like-icon{
+  color: grey;
+  font-size: 30px;
+}
+
 /* Bottom navigation styling starts from here */
 
 /* BottomNavigation*/
@@ -385,6 +390,19 @@ body {
   .right-sidebar {
     display: none;
   }
+  .navbar-message-icon {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .horizontal-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+ 
 }
 
 @media (max-width: 1019px) {
@@ -495,6 +513,15 @@ body {
     width: 500px;
   }
 
+  .post-card-image{
+    width: 40px;
+    height: 40px;
+  }
+
+  .post-description{
+    font-size: 14px;
+  }
+
   .post-card-input {
     width: 350px;
     height: 40px;
@@ -504,6 +531,19 @@ body {
 
   .options-text {
     font-size: 13px;
+  }
+  .post-user-image{
+    width: 40px;
+    height: 40px;
+  }
+
+  .post-name{
+    font-size: 14px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 20px;
   }
 }
 
@@ -540,5 +580,153 @@ body {
 
   .options-text {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 464px) {
+  .navbar-input,
+  .search-input {
+    width: 280px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 400px;
+  }
+
+  .main-post-card{
+  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
+  padding-top: 10px;
+  border-radius: 10px;
+  width: 380px;
+  }
+
+  .post-card-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-card-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid rgb(173, 173, 173);
+  }
+
+  .options-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 419px) {
+  .navbar-input,
+  .search-input {
+    width: 260px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 380px;
+  }
+
+  .main-post-card{
+  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
+  padding-top: 10px;
+  border-radius: 10px;
+  width: 360px;
+  }
+
+  .post-card-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-card-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid rgb(173, 173, 173);
+  }
+
+  .options-text {
+    font-size: 12px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 16px;
+  }
+
+  .post-description{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 403px) {
+  .navbar-input,
+  .search-input {
+    width: 240px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 360px;
+  }
+
+  .main-post-card{
+  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
+  padding-top: 10px;
+  border-radius: 10px;
+  width: 340px;
+  }
+
+  .post-card-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-card-input {
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid rgb(173, 173, 173);
+  }
+
+  .options-text {
+    font-size: 12px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 16px;
+  }
+
+  .post-description{
+    font-size: 12px;
+  }
+
+  .icon-text{
+    font-size: 12px;
   }
 }

@@ -83,10 +83,10 @@ export default function Home() {
          <div className='post-description'>{post.postDescription}</div>
          <div className='post-main-image'><Image className='posts-images' src={post.postImage} width={600} height={600} alt='maniwebdev' /></div>
           <div className='like-horizontal'>
-          <div className='post-icons-horizontal'><BiLike color='grey' size={30} /> <p className='icon-text'>Like</p></div>
-          <div className='post-icons-horizontal'><BsChatText color='grey' size={30} /> <p className='icon-text'>Comment</p></div>
-          <div className='post-icons-horizontal'><FiRepeat color='grey' size={30} /> <p className='icon-text'>Repost</p></div>
-          <div className='post-icons-horizontal'><RiSendPlaneFill color='grey' size={30} /> <p className='icon-text'>Send</p></div>
+          <div className='post-icons-horizontal'><BiLike className='like-icon'  /> <p className='icon-text'>Like</p></div>
+          <div className='post-icons-horizontal'><BsChatText className='like-icon'  /> <p className='icon-text'>Comment</p></div>
+          <div className='post-icons-horizontal'><FiRepeat className='like-icon'  /> <p className='icon-text'>Repost</p></div>
+          <div className='post-icons-horizontal'><RiSendPlaneFill className='like-icon' /> <p className='icon-text'>Send</p></div>
           </div>
          </div>
          </>
