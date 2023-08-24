@@ -452,6 +452,10 @@ body {
     box-sizing: border-box;
     padding-left: 15px;
   }
+
+  .main-post-card{
+    display: none;
+  }
 }
 
 @media (max-width: 687px) {
@@ -558,29 +562,6 @@ body {
   .post-card {
     width: 450px;
   }
-
-  .main-post-card{
-  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
-  padding-top: 10px;
-  border-radius: 10px;
-  width: 430px;
-  }
-
-  .post-card-image{
-    width: 30px;
-    height: 30px;
-  }
-
-  .post-card-input {
-    width: 300px;
-    height: 30px;
-    border-radius: 50px;
-    border: 1px solid rgb(173, 173, 173);
-  }
-
-  .options-text {
-    font-size: 13px;
-  }
 }
 
 @media (max-width: 464px) {
@@ -594,29 +575,6 @@ body {
   .post-card {
     width: 400px;
   }
-
-  .main-post-card{
-  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
-  padding-top: 10px;
-  border-radius: 10px;
-  width: 380px;
-  }
-
-  .post-card-image{
-    width: 30px;
-    height: 30px;
-  }
-
-  .post-card-input {
-    width: 300px;
-    height: 30px;
-    border-radius: 50px;
-    border: 1px solid rgb(173, 173, 173);
-  }
-
-  .options-text {
-    font-size: 12px;
-  }
 }
 
 @media (max-width: 419px) {
@@ -629,29 +587,6 @@ body {
 
   .post-card {
     width: 380px;
-  }
-
-  .main-post-card{
-  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
-  padding-top: 10px;
-  border-radius: 10px;
-  width: 360px;
-  }
-
-  .post-card-image{
-    width: 30px;
-    height: 30px;
-  }
-
-  .post-card-input {
-    width: 300px;
-    height: 30px;
-    border-radius: 50px;
-    border: 1px solid rgb(173, 173, 173);
-  }
-
-  .options-text {
-    font-size: 12px;
   }
 
   .post-user-image{
@@ -685,29 +620,6 @@ body {
     width: 360px;
   }
 
-  .main-post-card{
-  box-shadow: 1px 1px 2px 2px rgba(143, 143, 143, 0.3);
-  padding-top: 10px;
-  border-radius: 10px;
-  width: 340px;
-  }
-
-  .post-card-image{
-    width: 30px;
-    height: 30px;
-  }
-
-  .post-card-input {
-    width: 250px;
-    height: 30px;
-    border-radius: 50px;
-    border: 1px solid rgb(173, 173, 173);
-  }
-
-  .options-text {
-    font-size: 12px;
-  }
-
   .post-user-image{
     width: 30px;
     height: 30px;
@@ -730,3 +642,155 @@ body {
     font-size: 12px;
   }
 }
+
+@media (max-width: 403px) {
+  .navbar-input,
+  .search-input {
+    width: 230px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 340px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 357px) {
+  .navbar-input,
+  .search-input {
+    width: 220px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 320px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 357px) {
+  .navbar-input,
+  .search-input {
+    width: 200px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 300px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 317px) {
+  .navbar-input,
+  .search-input {
+    width: 180px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .post-card {
+    width: 280px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 299px) {
+  .navbar{
+    margin-right: 150px;
+  }
+
+  .logo{
+    width: 25px;
+    height: 25px;
+  }
+  .navbar-input,
+  .search-input {
+    width: 160;
+    box-sizing: border-box;
+  }
+
+  .post-card {
+    width: 260px;
+  }
+
+  .post-user-image{
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-name{
+    font-size: 12px;
+  }
+
+  .like-icon{
+    color: grey;
+    font-size: 12px;
+  }
+
+  .icon-text{
+    font-size: 10px;
+  }
+
+}
+

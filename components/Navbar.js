@@ -14,6 +14,7 @@ const Navbar = () => {
         <div className='horizontal-logo'>
           <div className='logo-image'>
             <Image
+            className='logo'
               src="/images/linkedinlogo.png"
               alt='maniwebdev'
               width="35"
