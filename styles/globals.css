@@ -17,11 +17,14 @@ body {
   z-index: 1000; /* Adjust z-index as needed */
 }
 
+.logo{
+  padding-left: 15px;
+}
+
 .horizontal-logo {
   display: flex;
-  flex-direction: row;
-  margin-right: 150px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .navbar-li {
@@ -29,6 +32,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  padding-left: 100px;
 }
 
 .navbar-link {
@@ -44,6 +48,7 @@ body {
   border: 0px;
   background-color: rgb(230, 242, 252);
   padding-left: 5px;
+  width: 230px;
 }
 
 .navbar-input {
@@ -390,17 +395,18 @@ body {
   .right-sidebar {
     display: none;
   }
-  .navbar-message-icon {
-    display: block;
-    padding-left: 10px;
-  }
 
   .horizontal-logo {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
+  }
+
+  .navbar-message-icon {
+    display: block;
+    font-size: 25px;
+    color: grey;
+    padding-right: 55px;
   }
  
 }
@@ -409,15 +415,19 @@ body {
   .navbar-li {
     display: none;
   }
+  .navbar-message-icon {
+    display: block;
+    padding-left: 10px;
+    font-size: 25px;
+    color: grey;
+  }
   .navbar-input,
   .search-input {
     width: 900px;
-    box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .logo-image {
-    padding-left: 200px;
+    padding-left: 100px;
   }
 }
 
@@ -426,7 +436,6 @@ body {
   .search-input {
     width: 800px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 }
 
@@ -435,7 +444,6 @@ body {
   .search-input {
     width: 700px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 }
 
@@ -450,7 +458,11 @@ body {
   .search-input {
     width: 600px;
     box-sizing: border-box;
-    padding-left: 15px;
+  }
+
+  .logo{
+    width: 30px;
+    height: 30px;
   }
 
   .main-post-card{
@@ -463,7 +475,6 @@ body {
   .search-input {
     width: 500px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 }
 
@@ -472,7 +483,6 @@ body {
   .search-input {
     width: 400px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 }
 
@@ -556,7 +566,6 @@ body {
   .search-input {
     width: 300px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -569,7 +578,6 @@ body {
   .search-input {
     width: 280px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -582,7 +590,6 @@ body {
   .search-input {
     width: 260px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -595,7 +602,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -613,7 +620,6 @@ body {
   .search-input {
     width: 240px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -626,7 +632,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -648,7 +654,6 @@ body {
   .search-input {
     width: 230px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -661,7 +666,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -676,7 +681,6 @@ body {
   .search-input {
     width: 220px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -689,7 +693,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -704,7 +708,6 @@ body {
   .search-input {
     width: 200px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -717,7 +720,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -732,7 +735,6 @@ body {
   .search-input {
     width: 180px;
     box-sizing: border-box;
-    padding-left: 15px;
   }
 
   .post-card {
@@ -745,7 +747,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -756,18 +758,15 @@ body {
 }
 
 @media (max-width: 299px) {
-  .navbar{
-    margin-right: 150px;
-  }
-
   .logo{
     width: 25px;
     height: 25px;
+    padding-left: 0px;
+    margin-left: 0px;
   }
   .navbar-input,
   .search-input {
     width: 160;
-    box-sizing: border-box;
   }
 
   .post-card {
@@ -780,7 +779,7 @@ body {
   }
 
   .post-name{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .like-icon{
@@ -790,6 +789,10 @@ body {
 
   .icon-text{
     font-size: 10px;
+  }
+  .navbar-message-icon{
+    font-size: 18px;
+    color: grey;
   }
 
 }

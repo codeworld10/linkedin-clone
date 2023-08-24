@@ -31,7 +31,7 @@ const Navbar = () => {
             // onChange={handleInputChange}
             />
           </div>
-          <div className='navbar-message-icon'><IoChatboxEllipsesOutline color='grey' size={25} /></div>
+          <div className='navbar-message-icon'><IoChatboxEllipsesOutline /></div>
         </div>
         <div>
           <ul>
