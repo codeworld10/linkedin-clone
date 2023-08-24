@@ -33,7 +33,7 @@ const Navbar = () => {
           </div>
           <div className='navbar-message-icon'><IoChatboxEllipsesOutline /></div>
         </div>
-        <div>
+        <div className='none'>
           <ul>
             <li className='navbar-li'>
               <Link className='navbar-link' href="#home"><div><AiFillHome color='grey' size={25} /></div> <div className='navbar-text'>Home</div></Link>
