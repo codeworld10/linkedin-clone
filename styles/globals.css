@@ -15,6 +15,10 @@ body {
   z-index: 1000; /* Adjust z-index as needed */
 }
 
+.usm{
+  display: none;
+}
+
 .horizontal-logo {
   display: flex;
   align-items: center;
@@ -69,6 +73,29 @@ body {
 .navbar-menu-image {
   border-radius: 10px;
   margin-top: 5px;
+}
+
+/* Sidebar.module.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -280px; /* Off-screen initially */
+  width: 280px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  left: 0; /* Slide in when open */
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
 }
 
 /* body styling of home page starts from here */
@@ -287,10 +314,9 @@ body {
 /* post styling starts from here */
 
 .post-card {
-  box-shadow: 1px 1px 2px 2px rgb(190, 190, 190);
-  margin-top: 20px;
+  box-shadow: 1px 1px 2px 2px rgb(228, 228, 228);
+  margin-top: 10px;
   padding-top: 20px;
-  padding-bottom: 5px;
   border-radius: 10px;
 }
 
@@ -338,6 +364,7 @@ body {
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
+  border-top: 0.3px solid rgb(202, 202, 202);
 }
 
 .post-icons-horizontal {
@@ -409,6 +436,14 @@ body {
     text-decoration: none;
     color: #0073b1;
     font-weight: 600;
+  }
+
+  .usm{
+    display: flex;
+    border-radius: 15px;
+  }
+  .logo{
+    display: none;
   }
 }
 

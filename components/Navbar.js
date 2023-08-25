@@ -20,6 +20,13 @@ const Navbar = () => {
               width="35"
               height="35"
             />
+            <Image
+            className='usm'
+              src="/images/usm.jpg"
+              alt='maniwebdev'
+              width="25"
+              height="25"
+            />
           </div>
           <div className='navbar-input'>
           <AiOutlineSearch style={{color:'grey'}} size={18} />

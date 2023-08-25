@@ -8,7 +8,7 @@ export const posts = [
       },
 
       {
-        userImage: "/images/usm.jpg",
+        userImage: "/images/image1.jpeg",
         name: "Alexander",
         bio: "Web/app developer",
         postDescription: "Check out my today's work.",
@@ -16,7 +16,7 @@ export const posts = [
       },
 
       {
-        userImage: "/images/usm.jpg",
+        userImage: "/images/image2.jpeg",
         name: "Marco",
         bio: "Web/app developer",
         postDescription: "Excited to share that",
@@ -24,7 +24,7 @@ export const posts = [
       },
 
       {
-        userImage: "/images/usm.jpg",
+        userImage: "/images/image3.jpeg",
         name: "John Doe",
         bio: "Web/app developer",
         postDescription: "How to write clean code?",
