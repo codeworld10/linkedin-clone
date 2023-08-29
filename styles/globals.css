@@ -430,6 +430,24 @@ body {
     width: 100%;
     height: 60px;
     border-top: 1px solid #e0e0e0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .bottom-text{
+    color: grey;
+    font-size: 18px;
+  }
+
+  .bottom-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-icon{
+    color: grey;
+    font-size: 28px;
   }
   
   .bottomNav a {
@@ -476,6 +494,10 @@ body {
 @media (max-width: 839px) {
   .left-sidebar {
     display: none;
+  }
+  .bottom-text{
+    color: grey;
+    font-size: 16px;
   }
 }
 
@@ -567,6 +589,10 @@ body {
   .post-card {
     width: 450px;
   }
+  .bottom-icon{
+    color: grey;
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 464px) {
@@ -645,6 +671,12 @@ body {
     color: grey;
     font-size: 16px;
   }
+  .bottom-text{
+    font-size: 14px;
+  }
+  .bottom-icon{
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 357px) {
@@ -704,6 +736,10 @@ body {
   .like-icon {
     color: grey;
     font-size: 14px;
+  }
+
+  .bottom-text{
+    font-size: 12px;
   }
 }
 
