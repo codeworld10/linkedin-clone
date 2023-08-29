@@ -406,6 +406,10 @@ body {
     display: none;
   }
 
+  .main-content{
+    padding-bottom: 65px;
+  }
+
   .horizontal-logo {
     display: flex;
     justify-content: center;

@@ -7,8 +7,8 @@ import { MdInsertPhoto } from 'react-icons/md'
 import { RiVideoFill } from 'react-icons/ri'
 import { HiPaintBrush } from 'react-icons/hi2'
 import { RiArticleFill, RiSendPlaneFill } from 'react-icons/ri'
-import {BiLike} from 'react-icons/bi'
-import {FiRepeat} from 'react-icons/fi'
+import { BiLike } from 'react-icons/bi'
+import { FiRepeat } from 'react-icons/fi'
 import { posts } from '../components/Posts'
 import BottomNavigation from '../components/BottomNavigation'
 
@@ -51,7 +51,7 @@ export default function Home() {
               <p className='sales-text'>Try sales navigator</p>
             </div>
             <div className='horizontol-myitems'>
-              <BsFillBookmarkFill size={15} style={{color:'grey'}}/>
+              <BsFillBookmarkFill size={15} style={{ color: 'grey' }} />
               <p className='item-text'>My Items</p>
             </div>
           </div>
@@ -69,65 +69,65 @@ export default function Home() {
               </div>
             </div>
             {posts.map((post, index) => (
-            <>
-              <div key={index} className='post-card'>
-          <div className='horizontal-post-image'>
-          <div className='horizontal-image-name'>
-          <Image className='post-user-image' src={post.userImage} alt='maniwebdev' width='50' height='50'/>
-          <div>
-          <p className='post-name'>{post.name}</p>
-          <p className='post-bio'>{post.bio}</p>
-          </div>
-          </div>
-          <div><BsThreeDots size={20} /></div>
-          </div>
-         <div className='post-description'>{post.postDescription}</div>
-         <div className='post-main-image'><Image className='posts-images' src={post.postImage} width={600} height={600} alt='maniwebdev' /></div>
-          <div className='like-horizontal'>
-          <div className='post-icons-horizontal'><BiLike className='like-icon'  /> <p className='icon-text'>Like</p></div>
-          <div className='post-icons-horizontal'><BsChatText className='like-icon'  /> <p className='icon-text'>Comment</p></div>
-          <div className='post-icons-horizontal'><FiRepeat className='like-icon'  /> <p className='icon-text'>Repost</p></div>
-          <div className='post-icons-horizontal'><RiSendPlaneFill className='like-icon' /> <p className='icon-text'>Send</p></div>
-          </div>
-         </div>
-         </>
+              <>
+                <div key={index} className='post-card'>
+                  <div className='horizontal-post-image'>
+                    <div className='horizontal-image-name'>
+                      <Image className='post-user-image' src={post.userImage} alt='maniwebdev' width='50' height='50' />
+                      <div>
+                        <p className='post-name'>{post.name}</p>
+                        <p className='post-bio'>{post.bio}</p>
+                      </div>
+                    </div>
+                    <div><BsThreeDots size={20} /></div>
+                  </div>
+                  <div className='post-description'>{post.postDescription}</div>
+                  <div className='post-main-image'><Image className='posts-images' src={post.postImage} width={600} height={600} alt='maniwebdev' /></div>
+                  <div className='like-horizontal'>
+                    <div className='post-icons-horizontal'><BiLike className='like-icon' /> <p className='icon-text'>Like</p></div>
+                    <div className='post-icons-horizontal'><BsChatText className='like-icon' /> <p className='icon-text'>Comment</p></div>
+                    <div className='post-icons-horizontal'><FiRepeat className='like-icon' /> <p className='icon-text'>Repost</p></div>
+                    <div className='post-icons-horizontal'><RiSendPlaneFill className='like-icon' /> <p className='icon-text'>Send</p></div>
+                  </div>
+                </div>
+              </>
             ))}
           </div>
           <div className="right-sidebar">
             <div className='feed-top'>
-            <p className='add-feed-text'>Add to your feed</p>
+              <p className='add-feed-text'>Add to your feed</p>
             </div>
             <div className='horizontal-feed'>
-            <div>
-            <Image className='feed-image' src="/images/image1.jpeg" width="50" height="50" alt='maniwebdev'/>
-            </div>
-            <div className='feed-space'>
-            <p className='feed-name'>Alex</p>
-            <p className='feed-bio'>This is bio text</p>
-            <div><button className='feed-button'>+ Follow</button></div>
-            </div>
-            
-            </div>
-            <div className='horizontal-feed'>
-            <div>
-            <Image className='feed-image' src="/images/image2.jpeg" width="50" height="50" alt='maniwebdev'/>
-            </div>
-            <div className='feed-space'>
-            <p className='feed-name'>Alexander</p>
-            <p className='feed-bio'>This is bio text</p>
-            <div><button className='feed-button'>+ Follow</button></div>
-            </div>
-            
+              <div>
+                <Image className='feed-image' src="/images/image1.jpeg" width="50" height="50" alt='maniwebdev' />
+              </div>
+              <div className='feed-space'>
+                <p className='feed-name'>Alex</p>
+                <p className='feed-bio'>This is bio text</p>
+                <div><button className='feed-button'>+ Follow</button></div>
+              </div>
+
             </div>
             <div className='horizontal-feed'>
-            <div>
-            <Image className='feed-image' src="/images/image3.jpeg" width="50" height="50" alt='maniwebdev'/>
+              <div>
+                <Image className='feed-image' src="/images/image2.jpeg" width="50" height="50" alt='maniwebdev' />
+              </div>
+              <div className='feed-space'>
+                <p className='feed-name'>Alexander</p>
+                <p className='feed-bio'>This is bio text</p>
+                <div><button className='feed-button'>+ Follow</button></div>
+              </div>
+
             </div>
-            <div className='feed-space'>
-            <p className='feed-name'>Marco</p>
-            <p className='feed-bio'>This is bio text</p>
-            <div><button className='feed-button'>+ Follow</button></div>
-            </div>
+            <div className='horizontal-feed'>
+              <div>
+                <Image className='feed-image' src="/images/image3.jpeg" width="50" height="50" alt='maniwebdev' />
+              </div>
+              <div className='feed-space'>
+                <p className='feed-name'>Marco</p>
+                <p className='feed-bio'>This is bio text</p>
+                <div><button className='feed-button'>+ Follow</button></div>
+              </div>
             </div>
           </div>
           <BottomNavigation />
