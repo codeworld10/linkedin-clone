@@ -501,16 +501,14 @@ body {
     font-size: 16px;
     font-weight: 500;
   }
-}
-
+  .main-post-card {
+    display: none;
+  }
   .logo {
     width: 30px;
     height: 30px;
   }
-
-  .main-post-card {
-    display: none;
-  }
+}
 
 @media (max-width: 629px) {
   .post-card {
