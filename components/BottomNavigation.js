@@ -11,7 +11,7 @@ const BottomNavigation = () => {
       <Link href="/">
       <div className='bottom-items'><AiFillHome className='bottom-icon' /></div> <div className='bottom-text'>Home</div>
       </Link>
-      <Link href="/">
+      <Link href="/network">
       <div className='bottom-items'><HiUsers className='bottom-icon'/></div> <div className='bottom-text'>My network</div>
       </Link>
       <Link href="/">

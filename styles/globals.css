@@ -70,6 +70,17 @@ body {
   border: 0.3px solid rgb(206, 206, 206);
 }
 
+.business{
+  padding-left: 10px;
+}
+
+.business-text{
+  font-size: 12px;
+  padding-left: 10px;
+  color: grey;
+  margin-top: -5px;
+}
+
 .navbar-menu-image {
   border-radius: 10px;
   margin-top: 5px;
@@ -493,6 +504,7 @@ body {
   .main-content {
     padding: 10px;
     margin-top: -70px;
+    padding-bottom: 70px;
   }
 }
 
@@ -561,7 +573,7 @@ body {
   }
 
   .post-description {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .post-card-input {
@@ -625,7 +637,7 @@ body {
   }
 
   .post-description {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -649,11 +661,11 @@ body {
   }
 
   .post-description {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .icon-text {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 

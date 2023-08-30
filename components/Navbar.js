@@ -43,14 +43,14 @@ const Navbar = () => {
         <div className='none'>
           <ul>
             <li className='navbar-li'>
-              <Link className='navbar-link' href="#home"><div><AiFillHome color='grey' size={25} /></div> <div className='navbar-text'>Home</div></Link>
-              <Link className='navbar-link' href="#home"><div><HiUsers color='grey' size={25}/></div> <div className='navbar-text'>My network</div></Link>
+              <Link className='navbar-link' href="/"><div><AiFillHome color='grey' size={25} /></div> <div className='navbar-text'>Home</div></Link>
+              <Link className='navbar-link' href="/network"><div><HiUsers color='grey' size={25}/></div> <div className='navbar-text'>My network</div></Link>
               <Link className='navbar-link' href="#home"><div><HiShoppingBag color='grey' size={25} /></div> <div className='navbar-text'>Jobs</div></Link>
               <Link className='navbar-link' href="#home"><div><IoChatboxEllipsesOutline color='grey' size={25} /></div> <div className='navbar-text'>Messages</div></Link>
               <Link className='navbar-link' href="#home"><div><BsFillBellFill color='grey' size={25} /></div> <div className='navbar-text'>Notifications</div></Link>
               <Link className='navbar-link' href="#home"><div><Image className='navbar-menu-image' src='/images/usm.jpg' alt="maniwebdev" width="20" height="20" /></div> <div className='navbar-text'>Me</div></Link>
               <div className='navbar-border'></div>
-              <Link className='navbar-link' href="#home"><div><TbGridDots color='grey' size={25} /></div> <div className='navbar-text'>Business</div></Link>
+              <Link className='navbar-link' href="#home"><div className='business'><TbGridDots color='grey' size={25} /></div> <div className='business-text'>Business</div></Link>
             </li>
           </ul>
         </div>
